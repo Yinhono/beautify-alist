@@ -102,11 +102,11 @@
         border-radius: var(--hope-radii-xl) !important;
     }
     /* 路径栏透明 */
-    .hope-ui-light .hope-c-PJLV-igmvEDM-css {
-        background-color: rgba(255,255,255,0.7) !important;
+    .hope-ui-dark .hope-c-PJLV-idaeksS-css {
+        background-color:rgb(0 0 0 / 70%) !important;
     }
-    .hope-ui-dark .hope-c-PJLV-igmvEDM-css {
-        background-color: rgba(0,0,0,0.7) !important;
+    .hope-ui-light .hope-c-PJLV-idaeksS-css {
+        background-color:rgb(255 255 255 / 70%) !important;
     }
     /* 搜索栏 */
     .hope-ui-light .hope-c-PJLV-iiBaxsN-css,
