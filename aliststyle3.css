@@ -87,28 +87,32 @@
     .hope-c-PJLV-icKsjdm-css::after {
         background: rgba(255,255,255,0.7) !important;
     }
-    .hope-ui-light .hope-c-PJLV-icKsjdm-css,
-    .hope-ui-dark .hope-c-PJLV-icKsjdm-css {
+    .hope-ui-light .hope-c-PJLV-icKsjdm-css {
         background-color: rgba(255,255,255,0.7) !important;
+        border-radius: var(--hope-radii-xl) !important;
+    }
+    .hope-ui-dark .hope-c-PJLV-icKsjdm-css {
+        background-color: rgba(0,0,0,0.7) !important;
         border-radius: var(--hope-radii-xl) !important;
     }
     /* 仅吸附导航栏 */
     .hope-c-PJLV-ifdXShc-css::after {
         background: rgba(255,255,255,0.7) !important;
     }
-    .hope-ui-light .hope-c-hrsMRY,
-    .hope-ui-dark .hope-c-hrsMRY {
+    .hope-ui-light .hope-c-hrsMRY {
         background-color: rgba(255,255,255,0.7) !important;
+        border-radius: var(--hope-radii-xl) !important;
+    }
+    .hope-ui-dark .hope-c-hrsMRY {
+        background-color: rgba(0,0,0,0.7) !important;
         border-radius: var(--hope-radii-xl) !important;
     }
     /* 路径栏透明 */
     .hope-ui-light .hope-c-PJLV-idaeksS-css {
         background-color: rgba(255,255,255,0.7) !important;
-        border-radius: var(--hope-radii-xl) !important;
     }
     .hope-ui-dark .hope-c-PJLV-idaeksS-css {
         background-color: rgba(0,0,0,0.7) !important;
-        border-radius: var(--hope-radii-xl) !important;
     }
     /* 搜索栏 */
     .hope-ui-light .hope-c-PJLV-iiBaxsN-css,
