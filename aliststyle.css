@@ -1,184 +1,142 @@
-    <linkrel="stylesheet"type="text/css"href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2">
-    <linkrel="stylesheet"type="text/css"href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC">
-    <styletype="text/css">
-    div{font-family:'BalooPaaji2','NotoSansSC';}
-    span{font-family:'BalooPaaji2','NotoSansSC';}
-    a{font-family:'BalooPaaji2','NotoSansSC';}
-    /*背景图*/
-    .hope-ui-light,.hope-ui-dark{
-    background-image:url("https://img.yonrd.com/i/2024/11/01/sdrf1l.jpg")!important;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-attachment:fixed;
-    background-position-x:center;
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC">
+<style type="text/css">
+    div, span, a {
+        font-family: 'Baloo Paaji 2', 'Noto Sans SC';
     }
-    /*主列表白天模式透明*/
-    .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css{
-    background-color:rgba(255,255,255,0.7)!important;
+    /* 背景图 */
+    .hope-ui-light, .hope-ui-dark {
+        background-image: url("https://img.yonrd.com/i/2024/11/01/sdrf1l.jpg") !important;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: center;
     }
-    /*主列表夜间模式透明*/
-    .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* 主列表白天模式透明 */
+    .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
+        background-color: rgba(255,255,255,0.7) !important;
     }
-    /*readme白天模式透明*/
-    .hope-c-PJLV.hope-c-PJLV-ikSuVsl-css{
-    background-color:rgba(255,255,255,0.7)!important;
+    /* 主列表夜间模式透明 */
+    .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
+        background-color: rgba(0,0,0,0.7) !important;
     }
-    /*readme夜间模式透明*/
-    .hope-c-PJLV.hope-c-PJLV-iiuDLME-css{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* readme白天模式透明 */
+    .hope-c-PJLV.hope-c-PJLV-ikSuVsl-css {
+        background-color: rgba(255,255,255,0.7) !important;
     }
-    /*顶部右上角切换按钮透明*/
-    .hope-ui-light.hope-c-ivMHWx-hZistB-cv.hope-icon-button{
-    background-color:rgba(255,255,255,0.7)!important;
+    /* readme夜间模式透明 */
+    .hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
+        background-color: rgba(0,0,0,0.7) !important;
     }
-    .hope-ui-dark.hope-c-ivMHWx-hZistB-cv.hope-icon-button{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* 顶部右上角切换按钮透明 */
+    .hope-ui-light .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+        background-color: rgba(255,255,255,0.7) !important;
     }
-    /*右下角侧边栏按钮透明第一个是白天第二个是夜间*/
-    .hope-ui-light.hope-c-PJLV-ijgzmFG-css{
-    background-color:rgba(255,255,255,0.7)!important;
+    .hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+        background-color: rgba(0,0,0,0.7) !important;
     }
-    .hope-ui-dark.hope-c-PJLV-ijgzmFG-css{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* 右下角侧边栏按钮透明 */
+    .hope-ui-light .hope-c-PJLV-ijgzmFG-css {
+        background-color: rgba(255,255,255,0.7) !important;
     }
-    /*白天模式代码块透明*/
-    .hope-ui-lightpre{
-    background-color:rgba(255,255,255,0.1)!important;
+    .hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
+        background-color: rgba(0,0,0,0.7) !important;
     }
-    /*夜间模式代码块透明*/
-    .hope-ui-darkpre{
-    background-color:rgba(255,255,255,0.1)!important;
+    /* 白天模式代码块透明 */
+    .hope-ui-light pre {
+        background-color: rgba(255,255,255,0.1) !important;
     }
-    /*左侧侧边栏目录*/
-    /*白天模式*/
-    .hope-ui-light.hope-c-PJLV-ieGWMbI-css{
-    background:rgba(255,255,255,0.7)!important;
+    /* 夜间模式代码块透明 */
+    .hope-ui-dark pre {
+        background-color: rgba(255,255,255,0.1) !important;
     }
-    /*夜间模式*/
-    .hope-ui-dark.hope-c-PJLV-ieGWMbI-css{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* 左侧侧边栏目录 */
+    .hope-ui-light .hope-c-PJLV-ieGWMbI-css {
+        background: rgba(255,255,255,0.7) !important;
     }
-    /*返回顶部*/
-    .hope-c-PJLV-ihVEsOa-css{
-    background:rgba(255,255,255,0.7)!important;
+    .hope-ui-dark .hope-c-PJLV-ieGWMbI-css {
+        background-color: rgba(0,0,0,0.7) !important;
     }
-    .hope-ui-dark.hope-c-PJLV-ihVEsOa-css{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* 返回顶部 */
+    .hope-c-PJLV-ihVEsOa-css {
+        background: rgba(255,255,255,0.7) !important;
     }
-    /*正常情况未使用吸附功能*/
-    /*顶部*/
-    .hope-c-PJLV-ikaMhsQ-css{
-    background:rgba(255,255,255,0)!important;
+    .hope-ui-dark .hope-c-PJLV-ihVEsOa-css {
+        background-color: rgba(0,0,0,0.7) !important;
     }
-    /*导航条*/
-    /*白天模式*/
-    .hope-ui-light.hope-c-PJLV-idaeksS-css{
-    background-color:rgba(255,255,255,0.7)!important;
-    border-radius:var(--hope-radii-xl)!important;
+    /* 正常情况未使用吸附功能 */
+    /* 顶部 */
+    .hope-c-PJLV-ikaMhsQ-css {
+        background: rgba(255,255,255,0) !important;
     }
-    /*夜间模式*/
-    .hope-ui-dark.hope-c-PJLV-idaeksS-css{
-    background-color:rgba(0,0,0,0.7)!important;
-    border-radius:var(--hope-radii-xl)!important;
+    /* 导航条 */
+    .hope-ui-light .hope-c-PJLV-idaeksS-css {
+        background-color: rgba(255,255,255,0.7) !important;
+        border-radius: var(--hope-radii-xl) !important;
     }
-    /*吸附到页面顶部*/
-    /*顶部*/
-    .hope-c-PJLV-icWrYmg-css{
-    background:rgba(255,255,255,0.7)!important;
+    .hope-ui-dark .hope-c-PJLV-idaeksS-css {
+        background-color: rgba(0,0,0,0.7) !important;
+        border-radius: var(--hope-radii-xl) !important;
     }
-    /*导航条*/
-    .hope-c-PJLV-icKsjdm-css::after{
-    background:rgba(255,255,255,0.7)!important;
+    /* 吸附到页面顶部 */
+    /* 顶部 */
+    .hope-c-PJLV-icWrYmg-css {
+        background: rgba(255,255,255,0.7) !important;
     }
-    /*白天模式*/
-    .hope-ui-light.hope-c-PJLV-icKsjdm-css{
-    background-color:rgba(255,255,255,0.7)!important;
-    border-radius:var(--hope-radii-xl)!important;
+    /* 导航条 */
+    .hope-c-PJLV-icKsjdm-css::after {
+        background: rgba(255,255,255,0.7) !important;
     }
-    /*夜间模式*/
-    .hope-ui-dark.hope-c-PJLV-icKsjdm-css{
-    background-color:rgba(0,0,0,0.7)!important;
-    border-radius:var(--hope-radii-xl)!important;
+    .hope-ui-light .hope-c-PJLV-icKsjdm-css,
+    .hope-ui-dark .hope-c-PJLV-icKsjdm-css {
+        background-color: rgba(255,255,255,0.7) !important;
+        border-radius: var(--hope-radii-xl) !important;
     }
-    /*仅吸附导航栏*/
-    /*导航条*/
-    .hope-c-PJLV-ifdXShc-css::after{
-    background:rgba(255,255,255,0.7)!important;
+    /* 仅吸附导航栏 */
+    .hope-c-PJLV-ifdXShc-css::after {
+        background: rgba(255,255,255,0.7) !important;
     }
-    /*白天模式*/
-    .hope-ui-light.hope-c-hrsMRY{
-    background-color:rgba(255,255,255,0.7)!important;
-    border-radius:var(--hope-radii-xl)!important;
+    .hope-ui-light .hope-c-hrsMRY,
+    .hope-ui-dark .hope-c-hrsMRY {
+        background-color: rgba(255,255,255,0.7) !important;
+        border-radius: var(--hope-radii-xl) !important;
     }
-    /*夜间模式*/
-    .hope-ui-dark.hope-c-hrsMRY{
-    background-color:rgba(0,0,0,0.7)!important;
-    border-radius:var(--hope-radii-xl)!important;
+    /* 路径栏透明 */
+    .hope-c-PJLV-igmvEDM-css {
+        background-color: rgba(255,255,255,0.7) !important;
     }
-    /*路径栏透明*/
-    .hope-ui-dark.hope-c-PJLV-idaeksS-css{
-    background-color:rgba(0,0,0,0.7)!important;
+    /* 搜索栏 */
+    .hope-ui-light .hope-c-PJLV-iiBaxsN-css,
+    .hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled,
+    .hope-ui-light .hope-c-PJLV-ijMezfq-css {
+        background-color: rgba(255,255,255,0.9) !important;
     }
-    .hope-ui-light.hope-c-PJLV-idaeksS-css{
-    background-color:rgba(255,255,255,0.7)!important;
+    .hope-ui-dark .hope-c-PJLV-iiBaxsN-css,
+    .hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled,
+    .hope-ui-dark .hope-c-PJLV-ijMezfq-css {
+        background-color: rgba(0,0,0,0.9) !important;
     }
-    /*markdown大纲透明*/
-    .hope-c-PJLV-igmvEDM-css{
-    background-color:rgba(255,255,255,0.7)!important;
+    /* 自定义页脚样式-固定在底部 */
+    #customize.custom-footer p:last-child {
+        white-space: nowrap;
     }
-    /*搜索栏*/
-    /*白天模式搜索主体*/
-    .hope-ui-light.hope-c-PJLV-iiBaxsN-css{
-    background-color:rgba(255,255,255,0.9)!important;
+    #customize.custom-footer {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(255,255,255,0.2);
+        backdrop-filter: blur(10px);
+        padding: 8px;
+        border-radius: 8px;
     }
-    /*白天模式搜索栏输入框*/
-    .hope-ui-light.hope-c-kvTTWD-hYRNAb-variant-filled{
-    background-color:rgba(255,255,255,0.9)!important;
+    /* 夜间模式背景 */
+    .hope-ui-dark #customize.custom-footer {
+        background-color: rgba(0,0,0,0.2);
+        backdrop-filter: blur(10px);
     }
-    /*白天模式搜索按钮*/
-    .hope-ui-light.hope-c-PJLV-ijMezfq-css{
-    background-color:rgba(255,255,255,0.7)!important;
-    padding:var(--hope-space-1)!important;
+    /* 隐藏原页脚 */
+    .footer span, .footer a:nth-of-type(1), .footer a:nth-of-type(2) {
+        display: none;
     }
-    /*夜间模式搜索主体*/
-    .hope-ui-dark.hope-c-PJLV-iiBaxsN-css{
-    background-color:rgba(0,0,0,0.9)!important;
-    }
-    /*夜间模式搜索栏*/
-    .hope-ui-dark.hope-c-kvTTWD-hYRNAb-variant-filled{
-    background-color:rgba(0,0,0,0.9)!important;
-    }
-    /*夜间模式搜索按钮*/
-    .hope-ui-darkhope-c-PJLV-ijMezfq-css{
-    background-color:rgba(0,0,0,0.7)!important;
-    padding:var(--hope-space-1)!important;
-    }
-    /*自定义页脚样式-固定在底部*/
-    #customize.custom-footerp:last-child{
-    white-space:nowrap;
-    }
-    #customize.custom-footer{
-    position:fixed;/*固定定位*/
-    bottom:20px;/*预留底栏空间*/
-    left:50%;/*水平居中*/
-    transform:translateX(-50%);/*水平居中补偿*/
-    background-color:rgba(255,255,255,0.2);
-    backdrop-filter:blur(10px);
-    padding:8px8px;
-    border-radius:8px;
-    }
-    /*夜间模式背景*/
-    .hope-ui-dark#customize.custom-footer{
-    background-color:rgba(0,0,0,0.2);
-    backdrop-filter:blur(10px);
-    }
-    /*隐藏原页脚*/
-    .footerspan,
-    .footera:nth-of-type(1){
-    display:none;
-    }
-    .footerspan,
-    .footera:nth-of-type(2){
-    display:none;
-    }
+</style>
