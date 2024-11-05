@@ -4,8 +4,6 @@
     div{font-family: 'Baloo Paaji 2','Noto Sans SC';}
     span{font-family: 'Baloo Paaji 2','Noto Sans SC';}
     a{font-family: 'Baloo Paaji 2','Noto Sans SC';}
-</style>
-<style>
 /*背景图*/
  .hope-ui-light, .hope-ui-dark{
     background-image: url("https://img.yonrd.com/i/2024/11/01/sdrf1l.jpg") !important;
@@ -166,4 +164,3 @@
     background-color: rgba(0, 0, 0, 0.7)!important;
     padding: var(--hope-space-1)!important;
 }
-</style>
