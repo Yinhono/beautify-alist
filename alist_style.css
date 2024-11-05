@@ -10,7 +10,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-        background-position-x: center;
+        background-position: center;
     }
     /* 主列表白天模式透明 */
     .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
@@ -102,19 +102,26 @@
         border-radius: var(--hope-radii-xl) !important;
     }
     /* 路径栏透明 */
-    .hope-c-PJLV-igmvEDM-css {
+    .hope-ui-light .hope-c-PJLV-igmvEDM-css {
+        background-color: rgba(255,255,255,0.7) !important;
+    }
+    .hope-ui-dark .hope-c-PJLV-igmvEDM-css {
         background-color: rgba(255,255,255,0.7) !important;
     }
     /* 搜索栏 */
     .hope-ui-light .hope-c-PJLV-iiBaxsN-css,
-    .hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled,
-    .hope-ui-light .hope-c-PJLV-ijMezfq-css {
+    .hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled {
         background-color: rgba(255,255,255,0.9) !important;
     }
     .hope-ui-dark .hope-c-PJLV-iiBaxsN-css,
-    .hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled,
-    .hope-ui-dark .hope-c-PJLV-ijMezfq-css {
+    .hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled {
         background-color: rgba(0,0,0,0.9) !important;
+    }
+    .hope-ui-light .hope-c-PJLV-ijMezfq-css {
+        background-color: rgba(255,255,255,0.7) !important;
+    }
+    .hope-ui-dark .hope-c-PJLV-ijMezfq-css{
+        background-color: rgba(0,0,0,0.7) !important;
     }
     /* 自定义页脚样式-固定在底部 */
     #customize.custom-footer p:last-child {
