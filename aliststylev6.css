@@ -133,4 +133,7 @@
     .footer span,.footer a:nth-of-type(1){
         display:none;
     }
+    .footer span,.footer a:nth-of-type(2){
+        display:none;
+    }
 </style>
