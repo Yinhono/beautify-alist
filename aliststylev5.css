@@ -129,4 +129,8 @@
     .hope-ui-dark .hope-c-PJLV-ijMezfq-css{
         background-color: rgba(0,0,0,0.7) !important;
     }
+    /* 隐藏版权 */
+    .footer span,.footer a:nth-of-type(1){
+        display:none;
+    }
 </style>
