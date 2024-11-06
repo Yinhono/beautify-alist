@@ -20,11 +20,11 @@
     .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
         background-color: rgba(0,0,0,0.7) !important;
     }
-    /* readme白天模式透明 */
+    /* readme 白天模式透明 */
     .hope-c-PJLV.hope-c-PJLV-ikSuVsl-css {
         background-color: rgba(255,255,255,0.7) !important;
     }
-    /* readme夜间模式透明 */
+    /* readme 夜间模式透明 */
     .hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
         background-color: rgba(0,0,0,0.7) !important;
     }
@@ -137,24 +137,25 @@
         display:none;
     }
     /* 自定义页脚样式 - 固定在底部 */
-        #customize .custom-footer p:last-child {
-           white-space: nowrap;
-        }
-        #customize .custom-footer {
-            position: fixed;  /* 固定定位 */
-            bottom: 20px;    /* 预留底栏空间 */
-            left: 50%;      /* 水平居中 */
-            transform: translateX(-50%);  /* 水平居中补偿 */
-            background-color: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            padding: 8px;
-            border-radius: 8px;
-        }
+    .custom-footer p:last-child {
+    white-space: nowrap; /* 防止换行 */
+    }
 
-        /* 夜间模式背景 */
-        .hope-ui-dark #customize .custom-footer {
-            background-color: rgba(0, 0, 0, 0.2);
-            backdrop-filter: blur(10px);
-        }
+    .custom-footer {
+        position: fixed;  /* 固定在页面底部 */
+        bottom: 20px;    /* 底部距离 */
+        left: 50%;       /* 水平居中 */
+        transform: translateX(-50%);  /* 水平居中补偿 */
+        background-color: rgba(255, 255, 255, 0.2); /* 默认背景色 */
+        backdrop-filter: blur(10px);
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    /* 夜间模式背景颜色 */
+    .hope-ui-dark .custom-footer {
+        background-color: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+    }
 
 </style>
