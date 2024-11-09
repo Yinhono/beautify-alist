@@ -11,9 +11,5 @@
 ### 自定义内容
 ```
 <div id="custom-footer"></div>
-<script>
-    fetch('https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/pagev2.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('custom-footer').innerHTML = data);
-</script>
+<script src="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/custom-footer.js"></script>
 ```
