@@ -1,4 +1,4 @@
-function loadStyles() {
+function loadStylesAndFooter() {
     // 加载 Google Fonts
     const googleFonts1 = document.createElement('link');
     googleFonts1.rel = 'stylesheet';
@@ -11,10 +11,29 @@ function loadStyles() {
     document.head.appendChild(googleFonts2);
 
     // 加载主CSS样式
-    fetch('https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/aliststyle.css')
+    fetch('https://cdn.jsdmirror.com/gh/Yinhono/beautify-alist@latest/aliststyle.css')
         .then(response => response.text())
         .then(css => {
             const style = document.createElement('style');
             style.textContent = css;
             document.head.appendChild(style);
         });
+
+    // 加载自定义 Footer
+    fetch('https://cdn.jsdmirror.com/gh/Yinhono/beautify-alist@latest/page.html')
+        .then(response => response.text())
+        .then(data => {
+            const footer = document.getElementById('custom-footer');
+            if (footer) {
+                footer.innerHTML = data;
+            }
+        });
+}
+
+// 延迟加载检查
+let interval = setInterval(() => {
+    if (document.querySelector(".footer")) {
+        loadStylesAndFooter(); // 当检测到 .footer 存在时才加载
+        clearInterval(interval);
+    }
+}, 200);
