@@ -18,3 +18,11 @@ function loadStyles() {
             style.textContent = css;
             document.head.appendChild(style);
         });
+
+// 延迟加载检查
+let interval = setInterval(() => {
+    if (document.querySelector(".footer")) {
+        loadStyles();  // 当检测到.footer存在时才加载
+        clearInterval(interval);
+    }
+}, 200);
