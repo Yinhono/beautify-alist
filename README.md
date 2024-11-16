@@ -13,4 +13,9 @@
 ```
 <div id="custom-footer"></div>
 <script src="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/custom-footer.js"></script>
+.footer span,
+.footer a:nth-of-type(1),
+.footer a:nth-of-type(2) {
+    display: none;
+}
 ```
