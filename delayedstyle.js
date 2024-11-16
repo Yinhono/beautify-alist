@@ -11,7 +11,7 @@ function loadStylesAndFooter() {
     document.head.appendChild(googleFonts2);
 
     // 加载主CSS样式
-    fetch('https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/aliststyle.css')
+    fetch('https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@0c9dbe9c4b84feea3ea240e50730d8ab9f6de1a8/aliststyle.css')
         .then(response => response.text())
         .then(css => {
             const style = document.createElement('style');
