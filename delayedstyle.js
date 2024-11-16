@@ -20,7 +20,7 @@ function loadStylesAndFooter() {
         });
 
     // 加载自定义 Footer
-    fetch('https://cdn.jsdeliver.net/gh/Yinhono/beautify-alist@latest/page.html')
+    fetch('https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/page.html')
         .then(response => response.text())
         .then(data => {
             const footer = document.getElementById('custom-footer');
