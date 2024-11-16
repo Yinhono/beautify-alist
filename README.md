@@ -11,10 +11,5 @@
 ### 自定义内容
 ```
 <div id="custom-footer"></div>
-<script src="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@1b423352729483ddc408e068a744384898d655d2/delayedstyle.js"></script>
-.footer span,
-.footer a:nth-of-type(1),
-.footer a:nth-of-type(2) {
-    display: none;
-}
+<script src="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/delayedstyle.js"></script>
 ```
