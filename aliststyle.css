@@ -1,4 +1,6 @@
+    body {
     font-family: 'Baloo Paaji 2', 'Noto Sans SC', sans-serif;
+}
     /* 背景图 */
     .hope-ui-light, .hope-ui-dark {
         background-image: url("https://pic.ling-yin.top/IMG_20241116_104309.webp") !important;
