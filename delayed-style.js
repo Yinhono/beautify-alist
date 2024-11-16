@@ -18,6 +18,7 @@ function loadStyles() {
             style.textContent = css;
             document.head.appendChild(style);
         });
+}
 
 // 延迟加载检查
 let interval = setInterval(() => {
