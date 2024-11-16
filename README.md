@@ -11,5 +11,5 @@
 ### 自定义内容
 ```
 <div id="custom-footer"></div>
-<script src="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/delayedstyle.js"></script>
+<script src="https://cdn.jsdmirror.com/gh/Yinhono/beautify-alist@latest/delayedstyle.js"></script>
 ```
