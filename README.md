@@ -6,7 +6,7 @@
 ### 自定义头部
 ```
 <script src="https://polyfill.alicdn.com/v3/polyfill.min.js?features=String.prototype.replaceAll"></script>
-<link href="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/aliststylev8.css" rel="stylesheet" type="text/css">
+<link href="https://cdn.jsdelivr.net/gh/Yinhono/beautify-alist@latest/aliststylev9.css" rel="stylesheet" type="text/css">
 ```
 
 ### 自定义内容
