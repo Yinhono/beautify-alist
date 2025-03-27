@@ -20,7 +20,7 @@ function loadStylesAndFooter() {
         });
 
     // 加载自定义 Footer
-    fetch('https://ghfast.top/https://raw.githubusercontent.com/Yinhono/beautify-alist/main/page.html')
+    fetch('https://neko.ling-yin.top/Yinhono/beautify-alist/refs/heads/main/page.html')
         .then(response => response.text())
         .then(data => {
             const footer = document.getElementById('custom-footer');
